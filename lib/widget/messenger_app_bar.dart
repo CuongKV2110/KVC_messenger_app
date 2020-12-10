@@ -12,7 +12,7 @@ class _MessengerAppBar extends State<MessengerAppBar> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(15),
+      padding: EdgeInsets.fromLTRB(8,15,8,5),
       child: Row(
         children: [
           Center(
@@ -20,7 +20,6 @@ class _MessengerAppBar extends State<MessengerAppBar> {
               height: 50,
               width: 50,
               decoration: BoxDecoration(
-
                 shape: BoxShape.circle,
                 image: DecorationImage(
                   image: AssetImage("assets/kvc.jpg"),
